@@ -29,3 +29,5 @@ router.post('/', (req, res) => {
         res.status(500).json({ message: 'Failed to post project' });
     });
 });
+
+module.exports = router;
